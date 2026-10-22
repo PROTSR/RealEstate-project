@@ -1,0 +1,8 @@
+# XAMPP / system files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+.vscode/
+.idea/

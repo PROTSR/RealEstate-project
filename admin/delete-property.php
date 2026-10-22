@@ -1,0 +1,1 @@
+<?php require 'auth.php';require '../includes/config.php';$id=(int)($_GET['id']??0);$s=$conn->prepare("DELETE FROM properties WHERE id=?");$s->bind_param("i",$id);$s->execute();header("Location: properties.php");exit;?>

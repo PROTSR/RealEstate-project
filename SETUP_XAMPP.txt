@@ -1,0 +1,40 @@
+﻿DreamNest PHP + MYSQL - XAMPP SETUP
+
+1. Install XAMPP.
+2. Start Apache and MySQL.
+3. Copy the DreamNest_PHP_MySQL_BCA5 folder into:
+   C:\xampp\htdocs\
+4. Open phpMyAdmin:
+   http://localhost/phpmyadmin
+5. Import:
+   database/DreamNest.sql
+6. Open:
+   http://localhost/DreamNest_PHP_MySQL_BCA5/
+7. Admin login:
+   Email: admin@dreamnest.com
+   Password: admin123
+
+FEATURES
+- PHP + MySQL database
+- User registration/login/logout
+- Property search
+- Buy/Rent filters
+- Dynamic property details
+- Favorites
+- Enquiries
+- Sell property requests
+- Agent data
+- Admin dashboard
+- Add/Edit/Delete properties
+- Users list
+- Enquiries list
+
+NOTE
+The SQL seed uses SHA-256 for simplicity in this academic starter. For a production deployment, replace it with PHP password_hash()/password_verify().
+
+
+DIRECT ADMIN PANEL
+http://localhost/DreamNest_PHP_MySQL_BCA5/admin/login.php
+
+If you already imported an older SQL file, re-import the included
+database/DreamNest.sql so the admin user exists.
